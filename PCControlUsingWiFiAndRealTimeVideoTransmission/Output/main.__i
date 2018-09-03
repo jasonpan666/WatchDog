@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\CMSIS -I..\USER -I..\FWlib\inc -I..\FWlib\src
+-I "D:\4、新录制教程\STM32智能小车光盘\1、STM32智能小车视频教程38课\37、STM32智能小车视频教程 手机控制STM32WIFI小车\wifi视频遥控实验\USER\RTE"
+-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0
+-I C:\Keil_v5\ARM\CMSIS\Include
+-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD
+-o ..\output\main.o --omf_browse ..\output\main.crf --depend ..\output\main.d "main.c"
